@@ -1,0 +1,61 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[hb]
+postSimFile = /home/stone/System_Verilog_Study/2_Verfication_Projects/1_FIFO_Verificarion/novas.fsdb
+syncTime = 0
+viewport = 0 0 900 700 0 0 253 898
+activeNode = "tb"
+activeScope = "tb"
+activeFile = "fifo_verification.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 178
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb"
+multipleSelection = 1 178 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "/home/stone/System_Verilog_Study/2_Verfication_Projects/1_FIFO_Verificarion/simv.daidir" 
+invokeDir = /home/stone/System_Verilog_Study/2_Verfication_Projects/1_FIFO_Verificarion
+[hb.sourceTab.1]
+scope = tb
+File = /home/stone/System_Verilog_Study/2_Verfication_Projects/1_FIFO_Verificarion/fifo_verification.sv
+Line = 179
+[nMemoryManager]
+WaveformFile = /home/stone/System_Verilog_Study/2_Verfication_Projects/1_FIFO_Verificarion/novas.fsdb
+UserActionNum = 0
+nMemWindowNum = 0

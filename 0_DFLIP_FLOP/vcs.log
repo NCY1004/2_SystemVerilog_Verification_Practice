@@ -1,0 +1,46 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.15.0-88-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs -l vcs.log -sverilog -kdb -debug_access+all test.sv test.v +vcs+vcdpluson \
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Wed Nov 22 17:26:40 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'test.sv'
+Parsing design file 'test.v'
+Top Level Modules:
+       tb
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling module dff_if
+recompiling module tb
+recompiling module dff
+All of 4 modules done
+make[1]: Entering directory '/home/stone/System_Verilog_Study/2_Verfication_Projects/0_DFLIP_FLOP_A1/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -no-pie  -Wl,--no-as-needed    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ \
+-Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -L/usr/lib/x86_64-linux-gnu \
+-L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic  -Wl,-rpath=/usr/stone/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib \
+-L/usr/stone/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib   objs/amcQw_d.o   _26639_archive_1.so \
+SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-luclinative /usr/stone/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /usr/stone/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o \
+/usr/stone/software/verdi/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl \
+-lc -lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory '/home/stone/System_Verilog_Study/2_Verfication_Projects/0_DFLIP_FLOP_A1/csrc' \
+
+CPU time: .222 seconds to compile + .190 seconds to elab + .170 seconds to link

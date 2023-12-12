@@ -1,0 +1,69 @@
+Command: /home/stone/System_Verilog_Study/2_Verfication_Projects/1_FIFO_Verificarion/./simv -l simv.log +ntb_random_seed=1
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 27 01:17 2023
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'novas.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+[GEN:] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 90
+[DRV] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 90
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 130
+[Sco] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 130
+[SCO] : DATA STORED IN QUEUE: 4
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 170
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 210
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 250
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 290
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 330
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 370
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 410
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 450
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 490
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 530
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 570
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 610
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 650
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 690
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 730
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 770
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 810
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 850
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 890
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 930
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 970
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1010
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1050
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1090
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1130
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1170
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1210
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1250
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1290
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1330
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1370
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1410
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1450
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1490
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1530
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1570
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1610
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1650
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1690
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1730
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1770
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1810
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1850
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1890
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1930
+[mon] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 1	 EMPTY : 0 @ 1970
+$finish called from file "fifo_verification.sv", line 269.
+$finish at simulation time                 2000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2000
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Wed Sep 27 01:17:57 2023

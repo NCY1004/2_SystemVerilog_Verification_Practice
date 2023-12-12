@@ -1,0 +1,33 @@
+Transaction 클래스
+1.전역신호를 제외하고 모든 포트에 변수추가 (전역신호 : clk, reset) -> 테스트벤치에서 컨트롤 가능 
+2.Input 포트에만 값 전
+3.값제약
+4.프린트 함수와 deep copy 함수추가 
+
+Generator 클래스
+1.랜덤값 생성
+2.transaction 값을 driver 에 전송
+3.Scoreboard 에서 driver 로 이벤트발생
+
+driver 클래스
+1.Generator -> transaction 값 전송 받음
+2.리셋 신호 적용
+3.Interface적용
+
+
+monitor 클래스
+1.Dut 반응 캡쳐
+2.DUT 반응을 ScoreBoard 로 전송
+
+
+score 클래스
+1.transaction 데이터 갭쳐
+2.transaction 저장
+3.예상된 결과와 비교
+
+
+environment 클래스
+1.모든 Class 제어
+2.각각의 프로세스 스케쥴링
+3.메일박스 이벤트 연결용도
+
